@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>贾子龙</title>
+  <link rel="icon" href="./assets/media/icon.png" type="image/png">
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body>
+  <!-- 顶部 Header：站点标题与右上角入口（由 nav.js 渲染） -->
+  <header class="site-header">
+    <div class="site-header__inner">
+      <div class="site-brand">
+        <img class="site-brand__icon" src="./assets/media/icon.png" alt="站点图标" width="24" height="24">
+        <span class="site-brand__title">贾子龙</span>
+      </div>
+      <!-- 右上角“页面”入口由脚本挂载到 header 或固定到右上角 -->
+    </div>
+  </header>
+
+  <!-- 主内容区：Markdown 页面渲染容器 -->
+  <main class="site-main">
+    <div id="app-content" class="app-content"></div>
+  </main>
+
+  <!-- 底部 Footer（可选） -->
+  <footer class="site-footer">
+    <small>© 2025 贾子龙 · 纯静态站点示例</small>
+  </footer>
+
+  <!-- 功能脚本顺序：nav -> router -> markdown -> main（初始化与CDN注入） -->
+  <script src="./assets/js/nav.js"></script>
+  <script src="./assets/js/router.js"></script>
+  <script src="./assets/js/markdown.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "pages": [
+    { "id": "intro", "title": "简介", "mdPath": "./content/intro.md" },
+    { "id": "math", "title": "数学公式示例", "mdPath": "./content/math.md" },
+    { "id": "guide", "title": "使用指南", "mdPath": "./content/guide.md" }
+  ]
+}
