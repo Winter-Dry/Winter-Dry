@@ -119,9 +119,9 @@
     if (!el) return;
 
     const texts = [
-      'Full-Stack Developer',
-      'Open Source Enthusiast',
-      'Problem Solver',
+      'Multimodal LLM Researcher',
+      'Video Instance Segmentation',
+      '3D Vision & Generation',
     ];
     let textIndex = 0;
     let charIndex = 0;
