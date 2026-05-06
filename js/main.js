@@ -120,7 +120,8 @@
 
     const texts = [
       'Multimodal LLM Researcher',
-      'Video Instance Segmentation',
+      'Recommandation and Search',
+      'Video Understanding',
       '3D Vision & Generation',
     ];
     let textIndex = 0;
